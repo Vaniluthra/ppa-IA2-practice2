@@ -1,1 +1,12 @@
-
+ gcc -g p2original.c
+ ./a.out
+Enter side length: 5
+Enter side length: 5
+Enter side length: 6
+The triangle with sides: 5, 5 and 6 is scalene
+ ./a.out
+Enter side length: 5
+Enter side length: 5
+Enter side length: 5
+The triangle with sides: 5, 5 and 5 is not scalene
+ 
