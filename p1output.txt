@@ -1,1 +1,6 @@
-
+ gcc -g p1original.c
+ ./a.out
+Enter Value: 75.754  
+354.576
+The area of the traingle with base 75.753998 and height 354.575989 is 13430.274414
+
