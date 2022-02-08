@@ -47,6 +47,6 @@ int main()
   int x=input_array_size();
   int y[x],res;
   input_array(x,y);
-  sum=sum_composite_numbers(x,y);
+  res=sum_composite_numbers(x,y);
   out_put(res);
 }
