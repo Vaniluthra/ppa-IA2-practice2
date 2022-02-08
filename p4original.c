@@ -24,7 +24,7 @@ int sum_composite_numbers(int n, int a[n])
   for(int i=0;i<n;i++)
   {
     int p=0;
-    for(int j=1;j<=a[i];i++)
+    for(int j=1;j<=a[i];j++)
     {
       if(a[i]%j==0)
       p+=1;
@@ -47,6 +47,6 @@ int main()
   int x=input_array_size();
   int y[x],res;
   input_array(x,y);
-  sum_composite_numbers(x,y);
+  sum=sum_composite_numbers(x,y);
   out_put(res);
 }
