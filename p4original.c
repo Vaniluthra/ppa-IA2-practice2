@@ -38,7 +38,9 @@ int sum_composite_numbers(int n, int a[n])
       if(a[i]%j==0)
       p+=1;
     }
-    if p
+    if(p==2)
+    continue;
+    else
     sum+=a[i];
   }
   return sum;
