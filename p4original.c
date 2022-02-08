@@ -17,7 +17,6 @@ void input_array(int n, int a[n])
   }
 }
 
-
 int sum_composite_numbers(int n, int a[n])
 {
   int sum=0;
@@ -32,7 +31,12 @@ int sum_composite_numbers(int n, int a[n])
     if(p==2)
     continue;
     else
-    sum+=a[i];
+    {
+      if(a[i]==1)
+      continue;
+      else
+      sum+=a[i];
+    }
   }
   return sum;
 }
