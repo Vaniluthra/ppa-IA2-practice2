@@ -10,16 +10,10 @@ int input()
 
 int check_scalene(int a, int b, int c)
 {
-  int p;
   if((a==b) && (b==c))
-  {
-    p=0;
-  }
+  return 0;
   else
-  {
-    p=1;
-  }
-  return p;
+  return 1;
 }
 
 int output(int a, int b, int c, int isscalene)

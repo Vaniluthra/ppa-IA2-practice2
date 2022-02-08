@@ -1,1 +1,8 @@
-
+ gcc -g p3original.c
+ ./a.out
+Enter number: 5
+5 is a prime number
+ ./a.out
+Enter number: 4
+4 is a composite number
+ 
