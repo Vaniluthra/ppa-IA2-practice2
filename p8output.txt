@@ -1,1 +1,15 @@
-
+ ./a.out
+Enter number of triangles: 3 
+Enter base length: 4.7
+Enter altitude length: 4.7 
+Enter base length: 8.9
+Enter altitude length: 3.67
+Enter base length: 8.567
+Enter altitude length: 4
+The smallest of triangles with base & height:
+4.700000  &  4.700000
+8.900000  &  3.670000
+8.567000  &  4.000000
+is triangle with
+Base- 4.700000 & Altitude- 4.700000 having Area- 11.044999
+ 

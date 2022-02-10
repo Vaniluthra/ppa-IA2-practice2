@@ -12,7 +12,7 @@ int input_n()
   int n;
   printf("Enter number of triangles: ");
   scanf("%d",&n);
-  return 0;
+  return n;
 }
 
 tri input_triangle()
@@ -59,13 +59,21 @@ tri find_smallest_triangle(int n, tri t[n])
 
 void output(int n, tri t[n], tri smallest)
 {
-  printf("The area of triangle with base = %f and altitude = %f is : %f\n",t.base,t.altitude,t.area);
+  printf("The smallest of triangles with base & height:\n");
+  for(int i=0;i<n-1;i++)
+  {
+    printf("%f  &  %f\n",t[i].base,t[i].altitude);
+  }
+  printf("%f  &  %f\nis triangle with\nBase- %f & Altitude- %f having Area- %f\n",t[n-1].base,t[n-1].altitude,smallest.base,smallest.altitude,smallest.area);
 }
 
 int main()
 {
-  tri a=input_triangle();
-  find_area(&a);
-  output(a);
+  int x=input_n();
+  tri a[x],st;
+  input_n_triangles(x,a);
+  find_areas_n(x,a);
+  st=find_smallest_triangle(x,a);
+  output(x,a,st);
   return 0;
 }
