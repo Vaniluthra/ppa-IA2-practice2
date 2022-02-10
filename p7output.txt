@@ -1,1 +1,5 @@
-
+ ./a.out
+Enter base length: 4.78
+Enter altitude length: 4.63
+The area of triangle with base = 4.780000 and altitude = 4.630000 is : 11.065701
+ 
