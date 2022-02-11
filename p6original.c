@@ -10,17 +10,16 @@ int str_reverse(char a)
 {
 }
 
-void output(int a, int b, int str)
+void output(int a, int str)
 {
-  printf("str of %d and %d is: %d\n",a,b,str);
+  printf("Reversed string of %d is: %d\n",a,str);
 }
 
 int main()
 {
-  int x,y,z;
-  x=input();
-  y=input();
-  z=str(x,y);
-  output(x,y,z);
+  int x,z;
+  input_string(&x)
+  z=str(x);
+  output(x,z);
   return 0;
 }
