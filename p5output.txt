@@ -1,1 +1,9 @@
-
+ ./a.out
+Enter Value: 12
+Enter Value: 24
+GCD of 12 and 24 is: 12
+ ./a.out
+Enter Value: 908
+Enter Value: 700
+GCD of 908 and 700 is: 4
+ 
