@@ -1,1 +1,8 @@
-
+ gcc -g p6original.c
+ ./a.out
+Enter the string: Hello
+The reverse of Hello is olleH
+ ./a.out
+Enter the string: helpful
+The reverse of helpful is lufpleh
+ 
